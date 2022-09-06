@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22FC006A28C7A514000D6B9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FC006928C7A514000D6B9D /* AppDelegate.swift */; };
+		22FC006C28C7A514000D6B9D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FC006B28C7A514000D6B9D /* SceneDelegate.swift */; };
+		22FC006E28C7A514000D6B9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FC006D28C7A514000D6B9D /* ViewController.swift */; };
+		22FC007128C7A514000D6B9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22FC006F28C7A514000D6B9D /* Main.storyboard */; };
+		22FC007428C7A514000D6B9D /* AsteroProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 22FC007228C7A514000D6B9D /* AsteroProject.xcdatamodeld */; };
+		22FC007628C7A516000D6B9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22FC007528C7A516000D6B9D /* Assets.xcassets */; };
+		22FC007928C7A516000D6B9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22FC007728C7A516000D6B9D /* LaunchScreen.storyboard */; };
+		22FC008428C7A516000D6B9D /* AsteroProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FC008328C7A516000D6B9D /* AsteroProjectTests.swift */; };
+		22FC008E28C7A516000D6B9D /* AsteroProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FC008D28C7A516000D6B9D /* AsteroProjectUITests.swift */; };
+		22FC009028C7A516000D6B9D /* AsteroProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22FC008F28C7A516000D6B9D /* AsteroProjectUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22FC008028C7A516000D6B9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22FC005E28C7A514000D6B9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22FC006528C7A514000D6B9D;
+			remoteInfo = AsteroProject;
+		};
+		22FC008A28C7A516000D6B9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22FC005E28C7A514000D6B9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22FC006528C7A514000D6B9D;
+			remoteInfo = AsteroProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22FC006628C7A514000D6B9D /* AsteroProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsteroProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22FC006928C7A514000D6B9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22FC006B28C7A514000D6B9D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		22FC006D28C7A514000D6B9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		22FC007028C7A514000D6B9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22FC007328C7A514000D6B9D /* AsteroProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AsteroProject.xcdatamodel; sourceTree = "<group>"; };
+		22FC007528C7A516000D6B9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22FC007828C7A516000D6B9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		22FC007A28C7A516000D6B9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22FC007F28C7A516000D6B9D /* AsteroProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsteroProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22FC008328C7A516000D6B9D /* AsteroProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsteroProjectTests.swift; sourceTree = "<group>"; };
+		22FC008928C7A516000D6B9D /* AsteroProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsteroProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22FC008D28C7A516000D6B9D /* AsteroProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsteroProjectUITests.swift; sourceTree = "<group>"; };
+		22FC008F28C7A516000D6B9D /* AsteroProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsteroProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22FC006328C7A514000D6B9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22FC007C28C7A516000D6B9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22FC008628C7A516000D6B9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22FC005D28C7A514000D6B9D = {
+			isa = PBXGroup;
+			children = (
+				22FC006828C7A514000D6B9D /* AsteroProject */,
+				22FC008228C7A516000D6B9D /* AsteroProjectTests */,
+				22FC008C28C7A516000D6B9D /* AsteroProjectUITests */,
+				22FC006728C7A514000D6B9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22FC006728C7A514000D6B9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22FC006628C7A514000D6B9D /* AsteroProject.app */,
+				22FC007F28C7A516000D6B9D /* AsteroProjectTests.xctest */,
+				22FC008928C7A516000D6B9D /* AsteroProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22FC006828C7A514000D6B9D /* AsteroProject */ = {
+			isa = PBXGroup;
+			children = (
+				22FC006928C7A514000D6B9D /* AppDelegate.swift */,
+				22FC006B28C7A514000D6B9D /* SceneDelegate.swift */,
+				22FC006D28C7A514000D6B9D /* ViewController.swift */,
+				22FC006F28C7A514000D6B9D /* Main.storyboard */,
+				22FC007528C7A516000D6B9D /* Assets.xcassets */,
+				22FC007728C7A516000D6B9D /* LaunchScreen.storyboard */,
+				22FC007A28C7A516000D6B9D /* Info.plist */,
+				22FC007228C7A514000D6B9D /* AsteroProject.xcdatamodeld */,
+			);
+			path = AsteroProject;
+			sourceTree = "<group>";
+		};
+		22FC008228C7A516000D6B9D /* AsteroProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				22FC008328C7A516000D6B9D /* AsteroProjectTests.swift */,
+			);
+			path = AsteroProjectTests;
+			sourceTree = "<group>";
+		};
+		22FC008C28C7A516000D6B9D /* AsteroProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22FC008D28C7A516000D6B9D /* AsteroProjectUITests.swift */,
+				22FC008F28C7A516000D6B9D /* AsteroProjectUITestsLaunchTests.swift */,
+			);
+			path = AsteroProjectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22FC006528C7A514000D6B9D /* AsteroProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22FC009328C7A516000D6B9D /* Build configuration list for PBXNativeTarget "AsteroProject" */;
+			buildPhases = (
+				22FC006228C7A514000D6B9D /* Sources */,
+				22FC006328C7A514000D6B9D /* Frameworks */,
+				22FC006428C7A514000D6B9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AsteroProject;
+			productName = AsteroProject;
+			productReference = 22FC006628C7A514000D6B9D /* AsteroProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22FC007E28C7A516000D6B9D /* AsteroProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22FC009628C7A516000D6B9D /* Build configuration list for PBXNativeTarget "AsteroProjectTests" */;
+			buildPhases = (
+				22FC007B28C7A516000D6B9D /* Sources */,
+				22FC007C28C7A516000D6B9D /* Frameworks */,
+				22FC007D28C7A516000D6B9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22FC008128C7A516000D6B9D /* PBXTargetDependency */,
+			);
+			name = AsteroProjectTests;
+			productName = AsteroProjectTests;
+			productReference = 22FC007F28C7A516000D6B9D /* AsteroProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22FC008828C7A516000D6B9D /* AsteroProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22FC009928C7A516000D6B9D /* Build configuration list for PBXNativeTarget "AsteroProjectUITests" */;
+			buildPhases = (
+				22FC008528C7A516000D6B9D /* Sources */,
+				22FC008628C7A516000D6B9D /* Frameworks */,
+				22FC008728C7A516000D6B9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22FC008B28C7A516000D6B9D /* PBXTargetDependency */,
+			);
+			name = AsteroProjectUITests;
+			productName = AsteroProjectUITests;
+			productReference = 22FC008928C7A516000D6B9D /* AsteroProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22FC005E28C7A514000D6B9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					22FC006528C7A514000D6B9D = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					22FC007E28C7A516000D6B9D = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 22FC006528C7A514000D6B9D;
+					};
+					22FC008828C7A516000D6B9D = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = 22FC006528C7A514000D6B9D;
+					};
+				};
+			};
+			buildConfigurationList = 22FC006128C7A514000D6B9D /* Build configuration list for PBXProject "AsteroProject" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22FC005D28C7A514000D6B9D;
+			productRefGroup = 22FC006728C7A514000D6B9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22FC006528C7A514000D6B9D /* AsteroProject */,
+				22FC007E28C7A516000D6B9D /* AsteroProjectTests */,
+				22FC008828C7A516000D6B9D /* AsteroProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22FC006428C7A514000D6B9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FC007928C7A516000D6B9D /* LaunchScreen.storyboard in Resources */,
+				22FC007628C7A516000D6B9D /* Assets.xcassets in Resources */,
+				22FC007128C7A514000D6B9D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22FC007D28C7A516000D6B9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22FC008728C7A516000D6B9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22FC006228C7A514000D6B9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FC006E28C7A514000D6B9D /* ViewController.swift in Sources */,
+				22FC006A28C7A514000D6B9D /* AppDelegate.swift in Sources */,
+				22FC006C28C7A514000D6B9D /* SceneDelegate.swift in Sources */,
+				22FC007428C7A514000D6B9D /* AsteroProject.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22FC007B28C7A516000D6B9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FC008428C7A516000D6B9D /* AsteroProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22FC008528C7A516000D6B9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FC009028C7A516000D6B9D /* AsteroProjectUITestsLaunchTests.swift in Sources */,
+				22FC008E28C7A516000D6B9D /* AsteroProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22FC008128C7A516000D6B9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22FC006528C7A514000D6B9D /* AsteroProject */;
+			targetProxy = 22FC008028C7A516000D6B9D /* PBXContainerItemProxy */;
+		};
+		22FC008B28C7A516000D6B9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22FC006528C7A514000D6B9D /* AsteroProject */;
+			targetProxy = 22FC008A28C7A516000D6B9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		22FC006F28C7A514000D6B9D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22FC007028C7A514000D6B9D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		22FC007728C7A516000D6B9D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22FC007828C7A516000D6B9D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22FC009128C7A516000D6B9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22FC009228C7A516000D6B9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22FC009428C7A516000D6B9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AsteroProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AsteroProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22FC009528C7A516000D6B9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AsteroProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AsteroProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		22FC009728C7A516000D6B9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AsteroProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AsteroProject.app/AsteroProject";
+			};
+			name = Debug;
+		};
+		22FC009828C7A516000D6B9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AsteroProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AsteroProject.app/AsteroProject";
+			};
+			name = Release;
+		};
+		22FC009A28C7A516000D6B9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AsteroProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AsteroProject;
+			};
+			name = Debug;
+		};
+		22FC009B28C7A516000D6B9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AsteroProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AsteroProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22FC006128C7A514000D6B9D /* Build configuration list for PBXProject "AsteroProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22FC009128C7A516000D6B9D /* Debug */,
+				22FC009228C7A516000D6B9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22FC009328C7A516000D6B9D /* Build configuration list for PBXNativeTarget "AsteroProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22FC009428C7A516000D6B9D /* Debug */,
+				22FC009528C7A516000D6B9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22FC009628C7A516000D6B9D /* Build configuration list for PBXNativeTarget "AsteroProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22FC009728C7A516000D6B9D /* Debug */,
+				22FC009828C7A516000D6B9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22FC009928C7A516000D6B9D /* Build configuration list for PBXNativeTarget "AsteroProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22FC009A28C7A516000D6B9D /* Debug */,
+				22FC009B28C7A516000D6B9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		22FC007228C7A514000D6B9D /* AsteroProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				22FC007328C7A514000D6B9D /* AsteroProject.xcdatamodel */,
+			);
+			currentVersion = 22FC007328C7A514000D6B9D /* AsteroProject.xcdatamodel */;
+			path = AsteroProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 22FC005E28C7A514000D6B9D /* Project object */;
+}
